@@ -9,7 +9,7 @@ connectDB();
 const app = express();
 app.use(cors({
     // origin: 'http://localhost:3000',
-    origin: 'https://inventory-frontend-l255.onrender.com',
+    origin: 'https://inventory-frontend-umber.vercel.app/',
     credentials: true 
   }));
   
